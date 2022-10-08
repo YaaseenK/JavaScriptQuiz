@@ -1,0 +1,102 @@
+/*  Spacing between choices
+    Allow choices to take up the full container
+    Set font-size
+    Border for each choice with some transparancy 
+    background color for the choices    */
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+}
+
+/*  When cursor is hovering over choices 
+    makes cursor a pointer
+    glow the box light blue with a transparancy
+    some animation so choices appear 3D  */
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+/*  making the choices tiles
+    background light blue color
+    text white */
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+}
+
+/*  positioning for choices text    */
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct{
+    background-color: #28a745;
+}
+.incorrect{
+    background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+.red {
+    color: #dc3545;
+}
+
+/* TIMER ANIMATION */
+
+.animate{
+    text-align: center;
+    font-size: 3.4rem;
+    animation: 1s ease-in-out slideup;;
+}
+
+@keyframes slideup{
+    from{
+        margin-top: 25%;
+    }
+    to{
+        margin-bottom: 0%;
+    }
+}
+
+/* PROGRESS BAR */
+
+#progressBar{
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 2rem;
+}
+
+#progressBarFull{
+    height: 3.4rem;
+    background-color: #56a5eb;
+    width: 0%;
+}
