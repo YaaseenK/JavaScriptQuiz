@@ -45,7 +45,7 @@ let questions = [
         choice2: 'isNan function returns true if the argument is not a number; otherwise, it is false.',
         choice3: 'allows user to style their page from a js document',
         choice4: 'Disables active number of arrays in a function',
-        answer: 4,
+        answer: 2,
     }
 ];
 
