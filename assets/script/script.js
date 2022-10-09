@@ -167,4 +167,4 @@ incrementScore = num => {
 
 
 
-window.onload = startGame();
+startGame();
