@@ -93,7 +93,7 @@ startGame = () => {
 getNewQuestion = () => {
     if(availableQuesions.length === 0 || questionCounter >= MAX_QUESTION){
         localStorage.setItem("recentScore", score);
-        return window.location.assign('./pages/end.html');
+        return window.location.assign('../pages/end.html');
     }
     // the counter for the question goes up 
     // HUD QUESTION COUNTER
