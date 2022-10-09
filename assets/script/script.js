@@ -78,7 +78,7 @@ startGame = () => {
                 timerText.innerText='TIMES UP';
                 acceptingAnswers;
                 setTimeout(() => {
-                    return window.location.assign('./pages/highScore.html');
+                    return window.location.assign('../pages/highScore.html');
                 }, 3000);
             }
         }, 1000);
