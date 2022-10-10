@@ -5,6 +5,7 @@ Answer choices are randomly sorted
 Incorrect answers results in a time penalty
 Highscores are saved through local data persistence
 
+<<<<<<< HEAD
 # <Week04-Challenge-codeQuiz>
 
 ## Description
@@ -77,3 +78,4 @@ HOME PAGE
 ![Home page](./assets/img/Capture.PNG?raw=true "Title")
 ACTUAL GAME
 ![Home page](./assets/img/Capture1.PNG?raw=true "Title")
+=======
